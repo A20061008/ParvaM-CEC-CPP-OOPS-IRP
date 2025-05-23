@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 //Syntax
 //class class_name //Class Declaration
 class Student{
@@ -15,9 +16,15 @@ public:
         cout<<"Semester:"<<sem<<endl;    
     
     }
+    void assign();
 };
 
-int main(){
+//void Student::assign(){
+
+//}
+
+
+nt main(){
     Student student1; //Object Creation
     student1.name="Amruth"; //Assigning the value to the Class using Object
     student1.college="CEC";
